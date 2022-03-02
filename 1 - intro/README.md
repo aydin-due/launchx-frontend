@@ -16,3 +16,9 @@ Descripción:
   - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 ```
 
+índice de las prácticas:
+1. [toma de requerimientos](1 - requisitos.pdf)
+2. buyer persona
+3. público objetivo
+4. wireframe ux
+5. ui
