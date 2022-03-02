@@ -18,7 +18,7 @@ Descripción:
 
 índice de las prácticas:
 1. [toma de requerimientos](1%20-%20requisitos.pdf)
-2. buyer persona
-3. público objetivo
-4. wireframe ux
+2. [buyer persona](2%20-%20buyer%20persona.pdf)
+3. [público objetivo](3%20-%20público%20objetivo.png)
+4. [wireframe ux](4%20-%20wireframe%20ux/)
 5. ui
