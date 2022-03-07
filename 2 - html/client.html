@@ -6,22 +6,84 @@
     </head>   
     <body style="margin: 0;">
         <header style="background-color:#F7AF9D">
-            <img src="assets/img/logo.png" alt="logo" height="141px" style="display:block;margin-left: auto;margin-right: auto;">   
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo" height="141px" style="display:block;margin-left: auto;margin-right: auto;"></a>
         </header>
-        <div style="height: 465px;text-align: center; color: #0B0014;">
-            <br><br><br><br><br><br><br><br>
+        <div style="text-align: center; color: #0B0014;">
             <h1>Bienvenido a Yummy Cake</h1>
-            <p>Selecciona el usuario que eres</p><br>
-            <a href="client.html" style="color: #F7AF9D;text-decoration: none;">Soy cliente</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="admin.html"style="color: #F7AF9D;text-decoration: none;">Soy pastelero</a><br><br><br>
+            <div style="float:left;width: 50%;height: 430px;">
+                <h2>Sabores disponibles</h2>
+                <table style="margin-left:auto;margin-right:auto;width: 200px;">
+                    <tr>
+                        <td>Vainilla</td><td>$350</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td><td>$400</td>
+                    </tr>
+                    <tr>
+                        <td>Tres leches</td><td>$650</td>
+                    </tr>
+                    <tr>
+                        <td>Zanahoria</td><td>$540</td>
+                    </tr>
+                    <tr>
+                        <td>Fresa</td><td>$500</td>
+                    </tr>
+                </table>
+                <br>
+                <h2>Decoración disponible</h2>
+                <table style="margin-left:auto;margin-right:auto;width: 200px;">
+                    <tr>
+                        <td>Chispas</td><td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolates</td><td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Fresas</td><td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Mensaje</td><td>$70</td>
+                    </tr>
+                    <tr>
+                        <td>Dibujo</td><td>$150</td>
+                    </tr>
+                </table>
+            </div>
+            <div style="float:left;width: 50%;height: 430px;">
+                <h2>Realiza tu pedido</h2>
+                <p>Ingresa la información solicitada</p>
+                <form>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" style="width: 200px;">
+                    <input type="number" id="celular" name="celular" placeholder="Número de celular" style="width: 200px;"><br>
+                    <input type="email" id="correo" name="correo" placeholder="Correo electrónico" style="width: 400px;"><br>
+                    <input type="text" id="descripción" name="descripción" placeholder="Descripción general del pastel" style="width:400px;height: 70px;"><br>
+                    <div style="float:left;width: 30%;height: 100px;text-align: left;margin-left: 150px;">
+                        <p>Sabor del pastel:</p>
+                        <label for="vainilla"><input id="vainilla" type="checkbox" name="sabor"> Vainilla</label><br>
+                        <label for="chocolate"><input id="chocolate" type="checkbox" name="sabor"> Chocolate</label><br>
+                        <label for="tresleches"><input id="tresleches" type="checkbox" name="sabor"> Tres Leches</label><br>
+                        <label for="zanahoria"><input id="zanahoria" type="checkbox" name="sabor"> Zanahoria</label><br>
+                        <label for="fresa"><input id="fresa" type="checkbox" name="sabor"> Fresa</label><br>
+                    </div>
+                    <div style="float:left;width: 30%;height: 100px;text-align: left;margin-left: 50px;">
+                        <p>Decoración del pastel:</p>
+                        <label for="chispas"><input id="chispas" type="checkbox" name="decor"> Chispas</label><br>
+                        <label for="chocolate"><input id="chocolate" type="checkbox" name="decor"> Chocolates</label><br>
+                        <label for="fresa"><input id="fresa" type="checkbox" name="decor"> Fresas</label><br>
+                        <label for="mensaje"><input id="mensaje" type="checkbox" name="decor"> Mensaje</label><br>
+                        <label for="dibujo"><input id="dibujo" type="checkbox" name="decor"> Dibujo</label><br>
+                    </div>
+                    <button type="submit" style="margin-top: 70px;">Realizar pedido</button>
+                </form>
+            </div>
         </div>
         <footer>
-            <div style="float: left;background-color:#F7AF9D;height: 130px;width: 10%;"><img src="assets/img/logo.png" alt="logo" height="80px" style="display:block;margin-left: auto;margin-right: auto;"></div>
-            <div style="float: left;background-color:#F7AF9D;height: 130px;width: 90%;color: white;">
+            <div style="float: left;background-color:#F7AF9D;height: 160px;width: 10%;"><img src="assets/img/logo.png" alt="logo" height="80px" style="display:block;margin-left: auto;margin-right: auto;"></div>
+            <div style="float: left;background-color:#F7AF9D;height: 160px;width: 90%;color: white;">
                 <h3>Yummy Cake</h3>
-                <p>Calle Iván López #69 Col. Tomasón, Hermosillo, Sonora, México</p> 
-                <p>Atención al cliente: 6321234567</p>  
+                <p><strong>Dirección:</strong> Calle Iván López #69 Col. Tomasón, Hermosillo, Sonora, México</p> 
+                <p><strong>Atención al cliente:</strong> 6321234567</p> 
+                <p><strong>Horario:</strong> Lunes a Sábado, 09-18 horas</p> 
             </div>
         </footer>
     </body>
