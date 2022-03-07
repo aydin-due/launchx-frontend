@@ -19,5 +19,5 @@ Descripción:
 
 índice de las prácticas:
 1. [marca de la pastelería (logo y mensaje)](assets/img/logo.png)
-2. maquetación de páginas (cliente de pastelería)
-3. maquetación de páginas (pastelero)
+2. [maquetación de páginas (cliente de pastelería)](https://aydin-due.github.io/yummycake/client.html)
+3. [maquetación de páginas (pastelero)](https://aydin-due.github.io/yummycake/admin.html)
