@@ -2,9 +2,9 @@
 
 prácticas realizadas durante la semana 3 del curso de _frontend_ de _launch x_
 
-```
-Clonación de la [página](https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/03%20-%20CSS/practica/landingVacunación.png)
-```
+
+clonación de la [página](https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/03%20-%20CSS/practica/landingVacunación.png)
+
 
 índice de las prácticas:
 1. planeación de campaña de vacunación
