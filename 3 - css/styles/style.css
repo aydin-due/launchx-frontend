@@ -1,0 +1,53 @@
+body {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    opacity: 0.9;
+    height: 90px;
+}
+
+p{
+    font-size: 13px;
+    color: rgb(109, 123, 147);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 40%;
+    color: rgb(54,87,214);
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.button{
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(54,87,214);
+    box-shadow: 0px 2px 7px rgb(110, 130, 207);
+}
+
+.section1{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
