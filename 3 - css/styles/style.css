@@ -11,13 +11,14 @@ header{
     justify-content: center;
     align-items: center;
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.97;
     height: 120px;
     font-weight: 500;
 }
 
 p{
     font-size: 17px;
+    line-height: 30px;
     color: rgb(109, 123, 147);
     font-family: 'Poppins', sans-serif;
 }
@@ -28,6 +29,11 @@ h1 {
     color: rgb(30,62,114);
 }
 
+h2 {
+    font-size: 40px;
+    line-height: 43px;
+    color: rgb(30,62,114);
+}
 .container{
     display:flex;
     flex-direction: column;
@@ -137,6 +143,53 @@ h1 {
 }
 
 .logos {
-    padding: 20px 0 20px 0;
+    padding: 50px 0 50px 0;
     height: 150px;
+}
+
+.section2{
+    padding: 0 150px 0 150px;
+    height: 650px;
+}
+
+.section2 .text{
+    width: 45%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 270px;
+    padding: 30px;
+    box-shadow: 0px 3px 7px rgb(227, 234, 255);
+}
+
+.card h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(109, 123, 147);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(30,62,114);
+}
+
+.card p {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.card img {
+    height: 35px;
+}
+
+.card .icon {
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
 }
