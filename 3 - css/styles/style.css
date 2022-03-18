@@ -30,10 +30,11 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 43px;
     color: rgb(30,62,114);
 }
+
 .container{
     display:flex;
     flex-direction: column;
@@ -96,9 +97,11 @@ h2 {
     height: 30px;
     padding-top: 50px;
 }
+
 .bottom{
     padding-top: 150px;
 }
+
 .option{
     display: flex;
     align-items: center;
@@ -149,20 +152,22 @@ h2 {
 
 .section2{
     padding: 0 150px 0 150px;
-    height: 650px;
+    height: 730px;
 }
 
-.section2 .text{
-    width: 45%;
+.text{
+    width: 500px;
 }
 
 .card-container {
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .card {
+    border-radius: 10px;
     width: 200px;
     height: 270px;
     padding: 30px;
@@ -192,4 +197,56 @@ h2 {
     padding: 10px;
     height: 40px;
     width: 40px;
+}
+
+.section3 {
+    height: 800px;
+    display: flex;
+    width: 100%;
+}
+
+.section3 .left img {
+    padding-top: 100px;
+    width: 600px;
+}
+
+.section3 .right {
+    padding: 0 100px 0 100px;
+}
+
+.column-container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.column {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgb(227, 234, 255);
+}
+
+.column p {
+    width: 400px;
+    padding-left: 25px;
+    color: rgb(30,62,114);
+}
+
+.column .icon{
+    border-radius: 5px;
+    margin-left: 40px;
+    height: 30px;
+    width: 20px;
+    background-color: rgb(221,229,255);
+    box-shadow: 0px 3px 7px rgb(227, 234, 255); 
+}
+
+.column .icon img {
+    height: 20px;
+    width: 20px;
 }
