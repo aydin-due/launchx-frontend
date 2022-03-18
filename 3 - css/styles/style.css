@@ -1,5 +1,6 @@
 body {
     font-family: 'Palanquin Dark', sans-serif;
+    margin:0;
 }
 
 header{
@@ -7,17 +8,24 @@ header{
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: white;
     opacity: 0.9;
-    height: 90px;
+    height: 120px;
+    font-weight: 500;
 }
 
 p{
-    font-size: 13px;
+    font-size: 17px;
     color: rgb(109, 123, 147);
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 63px;
+    color: rgb(30,62,114);
 }
 
 .container{
@@ -26,28 +34,104 @@ p{
 }
 
 .logo {
-    width: 40%;
+    width: 30%;
     color: rgb(54,87,214);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 50%;
 }
 
 .button{
     color: white;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 20px 10px 20px;
     border-radius: 5px;
     background-color: rgb(54,87,214);
     box-shadow: 0px 2px 7px rgb(110, 130, 207);
 }
 
 .section1{
-    background-color: red;
+    display: flex;
     width: 100%;
-    height: 200px;
+    height: 1000px;
+    justify-content: center;
+}
+
+.big-pic{
+    height: 100%;
+}
+
+.section1 .left{
+    width: 50%;
+    padding: 200px 150px 150px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-image: linear-gradient(to right, rgb(15,146,228),rgb(42,111,221));
+}
+
+.options img {
+    height: 16px;
+}
+
+.options{
+    display: flex;
+    height: 30px;
+    padding-top: 50px;
+}
+.bottom{
+    padding-top: 150px;
+}
+.option{
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    width: 100%;
+}
+
+.two{
+    width: 50%;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7px 0 7px;
+    height: 100%;
+}
+
+.yellow{
+    background-color: rgb(255,249,225);
+    box-shadow: 0px 3px 7px rgb(248, 244, 228);
+}
+
+.blue{
+    background-color: rgb(221,229,255);
+    box-shadow: 0px 3px 7px rgb(227, 234, 255); 
+}
+
+.two p {
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgb(30,62,114)
+}
+.one p {
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(30,62,114)
 }
