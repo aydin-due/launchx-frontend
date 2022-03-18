@@ -7,7 +7,7 @@ clonación de la [página](https://github.com/LaunchX-InnovaccionVirtual/FrontEn
 
 
 índice de las prácticas:
-1. planeación de campaña de vacunación
+1. [planeación de campaña de vacunación](mercadotecnia.png)
 2. [maquetación del sitio con HTML](index.html)
 4. [estilos con CSS](styles/style.css)
 
