@@ -135,3 +135,8 @@ h1 {
     font-weight: 500;
     color: rgb(30,62,114)
 }
+
+.logos {
+    padding: 20px 0 20px 0;
+    height: 150px;
+}
