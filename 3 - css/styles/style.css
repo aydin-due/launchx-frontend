@@ -24,12 +24,14 @@ p{
 }
 
 h1 {
+    font-weight: normal;
     font-size: 60px;
     line-height: 63px;
     color: rgb(30,62,114);
 }
 
 h2 {
+    font-weight: normal;
     font-size: 45px;
     line-height: 43px;
     color: rgb(30,62,114);
@@ -42,6 +44,22 @@ h4 {
     color: rgb(109, 123, 147);
     font-family: 'Poppins', sans-serif;
     color: rgb(30,62,114);
+}
+
+footer {
+    background-color: rgb(238, 243, 255);
+    padding: 50px 100px 50px 100px;
+    height: 250px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer h2 {
+    font-weight: normal;
+    font-size: 25px;
 }
 
 .container{
@@ -138,8 +156,8 @@ h4 {
 }
 
 .blue{
-    background-color: rgb(221,229,255);
-    box-shadow: 0px 3px 7px rgb(227, 234, 255); 
+    background-color: rgb(238, 243, 255);
+    box-shadow: 0px 3px 7px rgb(238, 242, 252); 
 }
 
 .two p {
@@ -311,6 +329,7 @@ h4 {
     margin-right: 20px;
     height: 55px;
     width: 40px;
+    border-radius: 5px;
 }
 
 .grid .button {
@@ -326,4 +345,31 @@ h4 {
     background-color: rgb(221,229,255);
     color: rgb(54,87,214);
     box-shadow: 0px 3px 7px rgb(227, 234, 255);
+}
+
+.box-container {
+    display: flex;
+}
+
+.vaccination {
+    width: 160px;
+    margin-right: 500px;
+}
+
+.info {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legal {
+    margin-top: 45px;
+    display: flex;
+}
+
+.terms {
+    display: flex;
+    margin-left: 645px;
+    width: 300px;
+    justify-content: space-around;
 }
