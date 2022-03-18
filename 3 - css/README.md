@@ -9,4 +9,4 @@ clonación de la [página](https://github.com/LaunchX-InnovaccionVirtual/FrontEn
 índice de las prácticas:
 1. planeación de campaña de vacunación
 2. maquetación del sitio con HTML
-4. [estilos con CSS](/styles/style.css)
+4. [estilos con CSS](styles/style.css)
